@@ -1,0 +1,181 @@
+body{
+     background-image:url(backgroundPHOTO.jpg);
+	 background-size: cover; 
+	 background-attachment: scroll; 
+	 background-repeat: no-repeat; 
+	 background-position: center;
+}
+
+body#PE{
+	 background-image:url(fit.jpg);
+	 background-size: cover; 
+	 background-attachment: scroll; 
+	 background-repeat: no-repeat; 
+	 background-position: center;
+}
+
+span{color:white;font-size:20px}
+.C{color:black;font-size:30px}
+
+
+.links:hover{
+	color: #9F311C;
+	font-style:Cousine;
+	font-variant: small-caps;
+	cursor: pointer;
+}
+
+a:link { 
+text-decoration: none;
+}
+
+video{
+	  width: 50%; 
+	  float: left;
+	  padding: 15px;
+}
+
+#nav{
+	font-family: Cousine;
+	font-size: 40px;
+	padding: 5px 50px;
+}
+
+#button{
+background-color:#FFD580;
+color:light blue;
+font-family: Cousine;
+padding:5px 50px;
+}
+
+#header{
+	      width:250px;
+		  margin:auto;
+}
+
+.sidebar {
+height: 100%;
+width: 0;
+position: fixed;
+top: 0;
+left: 0;
+background-color: #FFD580;
+transition: 0.7s;
+padding-top: 60px;
+overflow-x: hidden;
+}
+
+.sidebar div {
+padding: 8px 8px 8px 30px;
+font-size: 25px;
+display: block;
+transition: 0.7s;
+cursor: pointer;
+}
+
+.sidebar .closebutton {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 35px;
+}
+
+.openbuttton {
+float: left;
+font-size: 38px;
+cursor: pointer;
+background-color: #f2f2f2;
+}
+
+.buttonA{
+	background-color:#9F311C;
+	color:white;
+	padding:14px 16px;
+	font-family: Oswald;
+}
+
+.buttonA:hover{
+    color: white;
+	font-style:Cousine;
+	font-variant: small-caps;
+	cursor: pointer;
+}
+
+.names{
+	text-align: center;
+	font-family: Cousine;
+	font-size: 18px;
+	font-variant: small-caps;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f2f2f2;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #9F311C;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #9F311C;
+  color: white;
+}
+
+p.ex1{
+    margin: 35px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+#h3{
+    font-family:Oswald; 
+	text-align:center;
+	text-decoration: underline #CBC3E3;
+}
+
+#h4{
+    font-family:Oswald; 
+	text-align:center;
+	text-color:#FFD580;
+}
+
+.a1{
+    background-color:#ADD8E6;
+	border:2px solid #9F311C;
+	width:800px;
+	margin:auto;
+}
+
+.a2{
+    font-family:Oswald;
+	text-align:Justify;
+}
